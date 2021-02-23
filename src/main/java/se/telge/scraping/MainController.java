@@ -22,7 +22,7 @@ public class MainController {
 	@GetMapping("/status")
 	public String getHelloWorld()
 	{
-		return "It is UP!";
+		return "It is Down!";
 	}
 	
 	@GetMapping("/list")
